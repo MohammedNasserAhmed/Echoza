@@ -1,0 +1,37 @@
+[
+  {
+    "id": "hello",
+    "keywords": ["hello", "hi", "greetings"],
+    "video_url": "https://media.spreadthesign.com/video/mp4/13/48600.mp4",
+    "duration": 2.0,
+    "language": "ASL"
+  },
+  {
+    "id": "meeting",
+    "keywords": ["meeting", "conference", "gather"],
+    "video_url": "https://media.spreadthesign.com/video/mp4/13/78620.mp4",
+    "duration": 2.5,
+    "language": "ASL"
+  },
+  {
+    "id": "team",
+    "keywords": ["team", "group", "people"],
+    "video_url": "https://media.spreadthesign.com/video/mp4/13/12345.mp4",
+    "duration": 1.8,
+    "language": "ASL"
+  },
+  {
+    "id": "thanks",
+    "keywords": ["thanks", "thank you", "grateful"],
+    "video_url": "https://media.spreadthesign.com/video/mp4/13/54321.mp4",
+    "duration": 1.5,
+    "language": "ASL"
+  },
+  {
+    "id": "goodbye",
+    "keywords": ["goodbye", "bye", "see you"],
+    "video_url": "https://media.spreadthesign.com/video/mp4/13/98765.mp4",
+    "duration": 1.5,
+    "language": "ASL"
+  }
+]

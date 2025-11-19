@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "SignFlow: Real-time ASL Interpreter",
+  "version": "1.0.0",
+  "description": "Captures audio, translates to sign language, and displays a video overlay.",
+  "permissions": [
+    "offscreen",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SignFlow"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["offscreen.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

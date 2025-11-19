@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SignFlow Setup</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f4f8;
+      text-align: center;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #27ae60;
+    }
+    .success {
+      color: #27ae60;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to SignFlow</h1>
+  <p>To use the real-time interpreter, we need access to your microphone.</p>
+  <p>Please click the button below to grant permission.</p>
+  <button id="grantBtn">Grant Microphone Access</button>
+  <h2 id="successMsg" class="success">Permission Granted! You can close this tab.</h2>
+
+  <script src="onboarding.js"></script>
+</body>
+</html>
